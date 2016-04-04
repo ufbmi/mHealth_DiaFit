@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6CE5F96D9AD8C410372A60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC1731599D6EF174412EFB6 /* libPods.a */; };
+		2DB054D31C5BF4BC0043901F /* ProfileNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB054D21C5BF4BC0043901F /* ProfileNavController.m */; };
+		582F303F1C726ACF000A4486 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 582F303E1C726ACF000A4486 /* podfile */; };
+		F16532051C4FFC320031C07B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16532041C4FFC320031C07B /* main.m */; };
+		F16532081C4FFC320031C07B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16532071C4FFC320031C07B /* AppDelegate.m */; };
+		F165320B1C4FFC320031C07B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F165320A1C4FFC320031C07B /* HomeViewController.m */; };
+		F165320E1C4FFC320031C07B /* PhysicalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F165320D1C4FFC320031C07B /* PhysicalViewController.m */; };
+		F16532111C4FFC320031C07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F165320F1C4FFC320031C07B /* Main.storyboard */; };
+		F16532131C4FFC330031C07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16532121C4FFC330031C07B /* Assets.xcassets */; };
+		F16532161C4FFC330031C07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16532141C4FFC330031C07B /* LaunchScreen.storyboard */; };
+		F16532211C4FFC330031C07B /* DiaFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F16532201C4FFC330031C07B /* DiaFitTests.m */; };
+		F165322C1C4FFC330031C07B /* DiaFitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F165322B1C4FFC330031C07B /* DiaFitUITests.m */; };
+		F165323A1C4FFC5E0031C07B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16532391C4FFC5E0031C07B /* HealthKit.framework */; };
+		F16E73031C6127E8000567DD /* NutritionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19E83E41C5FC11E00FBBB12 /* NutritionViewController.m */; };
+		F16E73041C6127F7000567DD /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19E83EA1C5FC62200FBBB12 /* EditProfileViewController.m */; };
+		F16E73051C6127FA000567DD /* GlucoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19E83E81C5FC38900FBBB12 /* GlucoseViewController.m */; };
+		F16E73061C6127FD000567DD /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19E83E31C5FBD0600FBBB12 /* ProfileViewController.m */; };
+		F17C04711C650DB70028FAAD /* DiaFitHealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F17C04701C650DB70028FAAD /* DiaFitHealthKitManager.m */; };
+		F1907E0D1C62CC4800FBBFB8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1907E0C1C62CC4800FBBFB8 /* SignUpViewController.m */; };
+		F1907E131C62CCCB00FBBFB8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1907E121C62CCCB00FBBFB8 /* LoginViewController.m */; };
+		F1907E161C63B79600FBBFB8 /* SignUpView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F1907E151C63B79600FBBFB8 /* SignUpView2Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F165321D1C4FFC330031C07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16531F81C4FFC320031C07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16531FF1C4FFC320031C07B;
+			remoteInfo = DiaFit;
+		};
+		F16532281C4FFC330031C07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16531F81C4FFC320031C07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16531FF1C4FFC320031C07B;
+			remoteInfo = DiaFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DB054D11C5BF4BC0043901F /* ProfileNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileNavController.h; sourceTree = "<group>"; };
+		2DB054D21C5BF4BC0043901F /* ProfileNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileNavController.m; sourceTree = "<group>"; };
+		536F9609907CAEFDFE755D92 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		582F303E1C726ACF000A4486 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		5E2D5BB8426B3D93A1C999DD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7BC1731599D6EF174412EFB6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16532001C4FFC320031C07B /* DiaFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16532041C4FFC320031C07B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F16532061C4FFC320031C07B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F16532071C4FFC320031C07B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F16532091C4FFC320031C07B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F165320A1C4FFC320031C07B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F165320C1C4FFC320031C07B /* PhysicalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicalViewController.h; sourceTree = "<group>"; };
+		F165320D1C4FFC320031C07B /* PhysicalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicalViewController.m; sourceTree = "<group>"; };
+		F16532101C4FFC320031C07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16532121C4FFC330031C07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16532151C4FFC330031C07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16532171C4FFC330031C07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F165321C1C4FFC330031C07B /* DiaFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16532201C4FFC330031C07B /* DiaFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaFitTests.m; sourceTree = "<group>"; };
+		F16532221C4FFC330031C07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16532271C4FFC330031C07B /* DiaFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F165322B1C4FFC330031C07B /* DiaFitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaFitUITests.m; sourceTree = "<group>"; };
+		F165322D1C4FFC330031C07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16532391C4FFC5E0031C07B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		F165323B1C4FFC5E0031C07B /* DiaFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DiaFit.entitlements; sourceTree = "<group>"; };
+		F17C046F1C650DB70028FAAD /* DiaFitHealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaFitHealthKitManager.h; sourceTree = "<group>"; };
+		F17C04701C650DB70028FAAD /* DiaFitHealthKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaFitHealthKitManager.m; sourceTree = "<group>"; };
+		F1907E0B1C62CC4800FBBFB8 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		F1907E0C1C62CC4800FBBFB8 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		F1907E111C62CCCB00FBBFB8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F1907E121C62CCCB00FBBFB8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F1907E141C63B79600FBBFB8 /* SignUpView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpView2Controller.h; sourceTree = "<group>"; };
+		F1907E151C63B79600FBBFB8 /* SignUpView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpView2Controller.m; sourceTree = "<group>"; };
+		F19E83E21C5FBC3000FBBB12 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F19E83E31C5FBD0600FBBB12 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F19E83E41C5FC11E00FBBB12 /* NutritionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutritionViewController.m; sourceTree = "<group>"; };
+		F19E83E61C5FC1B600FBBB12 /* NutritionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutritionViewController.h; sourceTree = "<group>"; };
+		F19E83E71C5FC35400FBBB12 /* GlucoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoseViewController.h; sourceTree = "<group>"; };
+		F19E83E81C5FC38900FBBB12 /* GlucoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoseViewController.m; sourceTree = "<group>"; };
+		F19E83E91C5FC60300FBBB12 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		F19E83EA1C5FC62200FBBB12 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16531FD1C4FFC320031C07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F165323A1C4FFC5E0031C07B /* HealthKit.framework in Frameworks */,
+				0F6CE5F96D9AD8C410372A60 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16532191C4FFC330031C07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16532241C4FFC330031C07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58EBC663588E4C216E4066BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC1731599D6EF174412EFB6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A97771CCD3F48B002AD503B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D5BB8426B3D93A1C999DD /* Pods.debug.xcconfig */,
+				536F9609907CAEFDFE755D92 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F16531F71C4FFC320031C07B = {
+			isa = PBXGroup;
+			children = (
+				582F303E1C726ACF000A4486 /* podfile */,
+				F16532391C4FFC5E0031C07B /* HealthKit.framework */,
+				F16532021C4FFC320031C07B /* DiaFit */,
+				F165321F1C4FFC330031C07B /* DiaFitTests */,
+				F165322A1C4FFC330031C07B /* DiaFitUITests */,
+				F16532011C4FFC320031C07B /* Products */,
+				9A97771CCD3F48B002AD503B /* Pods */,
+				58EBC663588E4C216E4066BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F16532011C4FFC320031C07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16532001C4FFC320031C07B /* DiaFit.app */,
+				F165321C1C4FFC330031C07B /* DiaFitTests.xctest */,
+				F16532271C4FFC330031C07B /* DiaFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16532021C4FFC320031C07B /* DiaFit */ = {
+			isa = PBXGroup;
+			children = (
+				F165323B1C4FFC5E0031C07B /* DiaFit.entitlements */,
+				F16532061C4FFC320031C07B /* AppDelegate.h */,
+				F16532071C4FFC320031C07B /* AppDelegate.m */,
+				F17C046F1C650DB70028FAAD /* DiaFitHealthKitManager.h */,
+				F17C04701C650DB70028FAAD /* DiaFitHealthKitManager.m */,
+				F1907E0B1C62CC4800FBBFB8 /* SignUpViewController.h */,
+				F1907E0C1C62CC4800FBBFB8 /* SignUpViewController.m */,
+				F1907E141C63B79600FBBFB8 /* SignUpView2Controller.h */,
+				F1907E151C63B79600FBBFB8 /* SignUpView2Controller.m */,
+				F1907E111C62CCCB00FBBFB8 /* LoginViewController.h */,
+				F1907E121C62CCCB00FBBFB8 /* LoginViewController.m */,
+				F16532091C4FFC320031C07B /* HomeViewController.h */,
+				F165320A1C4FFC320031C07B /* HomeViewController.m */,
+				F19E83E41C5FC11E00FBBB12 /* NutritionViewController.m */,
+				F19E83E61C5FC1B600FBBB12 /* NutritionViewController.h */,
+				F19E83E91C5FC60300FBBB12 /* EditProfileViewController.h */,
+				F19E83EA1C5FC62200FBBB12 /* EditProfileViewController.m */,
+				F19E83E81C5FC38900FBBB12 /* GlucoseViewController.m */,
+				F19E83E71C5FC35400FBBB12 /* GlucoseViewController.h */,
+				F19E83E31C5FBD0600FBBB12 /* ProfileViewController.m */,
+				F19E83E21C5FBC3000FBBB12 /* ProfileViewController.h */,
+				F165320C1C4FFC320031C07B /* PhysicalViewController.h */,
+				F165320D1C4FFC320031C07B /* PhysicalViewController.m */,
+				F165320F1C4FFC320031C07B /* Main.storyboard */,
+				2DB054D11C5BF4BC0043901F /* ProfileNavController.h */,
+				2DB054D21C5BF4BC0043901F /* ProfileNavController.m */,
+				F16532121C4FFC330031C07B /* Assets.xcassets */,
+				F16532141C4FFC330031C07B /* LaunchScreen.storyboard */,
+				F16532171C4FFC330031C07B /* Info.plist */,
+				F16532031C4FFC320031C07B /* Supporting Files */,
+			);
+			path = DiaFit;
+			sourceTree = "<group>";
+		};
+		F16532031C4FFC320031C07B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16532041C4FFC320031C07B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F165321F1C4FFC330031C07B /* DiaFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16532201C4FFC330031C07B /* DiaFitTests.m */,
+				F16532221C4FFC330031C07B /* Info.plist */,
+			);
+			path = DiaFitTests;
+			sourceTree = "<group>";
+		};
+		F165322A1C4FFC330031C07B /* DiaFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F165322B1C4FFC330031C07B /* DiaFitUITests.m */,
+				F165322D1C4FFC330031C07B /* Info.plist */,
+			);
+			path = DiaFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16531FF1C4FFC320031C07B /* DiaFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16532301C4FFC330031C07B /* Build configuration list for PBXNativeTarget "DiaFit" */;
+			buildPhases = (
+				DD003D25A8D0647B9E69273A /* Check Pods Manifest.lock */,
+				F16531FC1C4FFC320031C07B /* Sources */,
+				F16531FD1C4FFC320031C07B /* Frameworks */,
+				F16531FE1C4FFC320031C07B /* Resources */,
+				E3A4D9F386E1CD79AD681C3E /* Embed Pods Frameworks */,
+				4FF5F92F633C7D185CD0BD8A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiaFit;
+			productName = DiaFit;
+			productReference = F16532001C4FFC320031C07B /* DiaFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F165321B1C4FFC330031C07B /* DiaFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16532331C4FFC330031C07B /* Build configuration list for PBXNativeTarget "DiaFitTests" */;
+			buildPhases = (
+				F16532181C4FFC330031C07B /* Sources */,
+				F16532191C4FFC330031C07B /* Frameworks */,
+				F165321A1C4FFC330031C07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F165321E1C4FFC330031C07B /* PBXTargetDependency */,
+			);
+			name = DiaFitTests;
+			productName = DiaFitTests;
+			productReference = F165321C1C4FFC330031C07B /* DiaFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F16532261C4FFC330031C07B /* DiaFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16532361C4FFC330031C07B /* Build configuration list for PBXNativeTarget "DiaFitUITests" */;
+			buildPhases = (
+				F16532231C4FFC330031C07B /* Sources */,
+				F16532241C4FFC330031C07B /* Frameworks */,
+				F16532251C4FFC330031C07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16532291C4FFC330031C07B /* PBXTargetDependency */,
+			);
+			name = DiaFitUITests;
+			productName = DiaFitUITests;
+			productReference = F16532271C4FFC330031C07B /* DiaFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16531F81C4FFC320031C07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Reynaldo Olivo";
+				TargetAttributes = {
+					F16531FF1C4FFC320031C07B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PNL28BS2KQ;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					F165321B1C4FFC330031C07B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PNL28BS2KQ;
+						TestTargetID = F16531FF1C4FFC320031C07B;
+					};
+					F16532261C4FFC330031C07B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PNL28BS2KQ;
+						TestTargetID = F16531FF1C4FFC320031C07B;
+					};
+				};
+			};
+			buildConfigurationList = F16531FB1C4FFC320031C07B /* Build configuration list for PBXProject "DiaFit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16531F71C4FFC320031C07B;
+			productRefGroup = F16532011C4FFC320031C07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16531FF1C4FFC320031C07B /* DiaFit */,
+				F165321B1C4FFC330031C07B /* DiaFitTests */,
+				F16532261C4FFC330031C07B /* DiaFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16531FE1C4FFC320031C07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16532161C4FFC330031C07B /* LaunchScreen.storyboard in Resources */,
+				F16532131C4FFC330031C07B /* Assets.xcassets in Resources */,
+				582F303F1C726ACF000A4486 /* podfile in Resources */,
+				F16532111C4FFC320031C07B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F165321A1C4FFC330031C07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16532251C4FFC330031C07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FF5F92F633C7D185CD0BD8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD003D25A8D0647B9E69273A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A4D9F386E1CD79AD681C3E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16531FC1C4FFC320031C07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB054D31C5BF4BC0043901F /* ProfileNavController.m in Sources */,
+				F1907E161C63B79600FBBFB8 /* SignUpView2Controller.m in Sources */,
+				F16E73061C6127FD000567DD /* ProfileViewController.m in Sources */,
+				F16E73031C6127E8000567DD /* NutritionViewController.m in Sources */,
+				F16E73041C6127F7000567DD /* EditProfileViewController.m in Sources */,
+				F16E73051C6127FA000567DD /* GlucoseViewController.m in Sources */,
+				F165320E1C4FFC320031C07B /* PhysicalViewController.m in Sources */,
+				F1907E0D1C62CC4800FBBFB8 /* SignUpViewController.m in Sources */,
+				F16532081C4FFC320031C07B /* AppDelegate.m in Sources */,
+				F17C04711C650DB70028FAAD /* DiaFitHealthKitManager.m in Sources */,
+				F1907E131C62CCCB00FBBFB8 /* LoginViewController.m in Sources */,
+				F165320B1C4FFC320031C07B /* HomeViewController.m in Sources */,
+				F16532051C4FFC320031C07B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16532181C4FFC330031C07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16532211C4FFC330031C07B /* DiaFitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16532231C4FFC330031C07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F165322C1C4FFC330031C07B /* DiaFitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F165321E1C4FFC330031C07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16531FF1C4FFC320031C07B /* DiaFit */;
+			targetProxy = F165321D1C4FFC330031C07B /* PBXContainerItemProxy */;
+		};
+		F16532291C4FFC330031C07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16531FF1C4FFC320031C07B /* DiaFit */;
+			targetProxy = F16532281C4FFC330031C07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F165320F1C4FFC320031C07B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16532101C4FFC320031C07B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16532141C4FFC330031C07B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16532151C4FFC330031C07B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F165322E1C4FFC330031C07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F165322F1C4FFC330031C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16532311C4FFC330031C07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2D5BB8426B3D93A1C999DD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DiaFit/DiaFit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DiaFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reyo.DiaFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F16532321C4FFC330031C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536F9609907CAEFDFE755D92 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DiaFit/DiaFit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DiaFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reyo.DiaFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F16532341C4FFC330031C07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiaFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reyo.DiaFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaFit.app/DiaFit";
+			};
+			name = Debug;
+		};
+		F16532351C4FFC330031C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiaFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reyo.DiaFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaFit.app/DiaFit";
+			};
+			name = Release;
+		};
+		F16532371C4FFC330031C07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiaFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reyo.DiaFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiaFit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F16532381C4FFC330031C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiaFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reyo.DiaFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiaFit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16531FB1C4FFC320031C07B /* Build configuration list for PBXProject "DiaFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F165322E1C4FFC330031C07B /* Debug */,
+				F165322F1C4FFC330031C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16532301C4FFC330031C07B /* Build configuration list for PBXNativeTarget "DiaFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16532311C4FFC330031C07B /* Debug */,
+				F16532321C4FFC330031C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16532331C4FFC330031C07B /* Build configuration list for PBXNativeTarget "DiaFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16532341C4FFC330031C07B /* Debug */,
+				F16532351C4FFC330031C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16532361C4FFC330031C07B /* Build configuration list for PBXNativeTarget "DiaFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16532371C4FFC330031C07B /* Debug */,
+				F16532381C4FFC330031C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16531F81C4FFC320031C07B /* Project object */;
+}
